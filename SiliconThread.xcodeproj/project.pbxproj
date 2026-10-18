@@ -1,0 +1,82 @@
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		AA000001 /* SiliconThread */ = {
+			isa = PBXProject;
+			attributes = { LastSwiftUpdateCheck = 1420; LastUpgradeCheck = 1420; TargetAttributes = { AA000002 = { CreatedOnToolsVersion = 14.2; }; }; };
+			buildConfigurationList = AA000003 /* Build configuration list for PBXProject "SiliconThread" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = ( en, Base, );
+			mainGroup = AA000004;
+			productRefGroup = AA000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( AA000002 /* SiliconThread */, );
+		};
+		AA000002 /* SiliconThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000006 /* Build configuration list for PBXNativeTarget "SiliconThread" */;
+			buildPhases = ( AA000007 /* Sources */, AA000008 /* Frameworks */, AA000009 /* Resources */, );
+			buildRules = ( );
+			dependencies = ( );
+			name = SiliconThread;
+			productName = SiliconThread;
+			productReference = AA000010 /* SiliconThread.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA000003 /* Build configuration list for PBXProject "SiliconThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( AA000011 /* Debug */, AA000012 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000006 /* Build configuration list for PBXNativeTarget "SiliconThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( AA000013 /* Debug */, AA000014 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000004 = { isa = PBXGroup; children = ( AA000015 /* SiliconThread */, AA000005 /* Products */, ); sourceTree = "<group>"; };
+		AA000005 /* Products */ = { isa = PBXGroup; children = ( AA000010 /* SiliconThread.app */, ); name = Products; sourceTree = "<group>"; };
+		AA000015 /* SiliconThread */ = { isa = PBXGroup; children = ( AA000016 /* SiliconThreadApp.swift */, AA000017 /* Models */, AA000018 /* Views */, AA000019 /* Resources */, ); path = SiliconThread; sourceTree = "<group>"; };
+		AA000017 /* Models */ = { isa = PBXGroup; children = ( AA000020 /* Product.swift */, AA000021 /* Address.swift */, ); path = Models; sourceTree = "<group>"; };
+		AA000018 /* Views */ = { isa = PBXGroup; children = ( AA000022 /* ContentView.swift */, AA000023 /* ProfileView.swift */, AA000024 /* AddressFormView.swift */, AA000025 /* SettingsView.swift */, ); path = Views; sourceTree = "<group>"; };
+		AA000019 /* Resources */ = { isa = PBXGroup; children = ( AA000026 /* products.json */, AA000027 /* docs */, AA000028 /* images */, ); path = Resources; sourceTree = "<group>"; };
+		AA000027 /* docs */ = { isa = PBXGroup; children = ( AA000029 /* SiliconThread_User_Guide.pdf */, ); path = docs; sourceTree = "<group>"; };
+		AA000028 /* images */ = { isa = PBXGroup; children = ( AA000030 /* SiliconThread_Overview.png */, ); path = images; sourceTree = "<group>"; };
+		AA000007 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( AA000031 /* SiliconThreadApp.swift */, AA000032 /* Product.swift */, AA000033 /* Address.swift */, AA000034 /* ContentView.swift */, AA000035 /* ProfileView.swift */, AA000036 /* AddressFormView.swift */, AA000037 /* SettingsView.swift */, ); runOnlyForDeploymentPostprocessing = 0; };
+		AA000008 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+		AA000009 /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( AA000038 /* products.json */, AA000039 /* SiliconThread_User_Guide.pdf */, AA000040 /* SiliconThread_Overview.png */, ); runOnlyForDeploymentPostprocessing = 0; };
+		AA000010 /* SiliconThread.app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiliconThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA000016 /* SiliconThreadApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiliconThreadApp.swift; sourceTree = "<group>"; };
+		AA000020 /* Product.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AA000021 /* Address.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		AA000022 /* ContentView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000023 /* ProfileView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AA000024 /* AddressFormView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFormView.swift; sourceTree = "<group>"; };
+		AA000025 /* SettingsView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA000026 /* products.json */ = { isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		AA000029 /* SiliconThread_User_Guide.pdf */ = { isa = PBXFileReference; lastKnownFileType = image.pdf; path = SiliconThread_User_Guide.pdf; sourceTree = "<group>"; };
+		AA000030 /* SiliconThread_Overview.png */ = { isa = PBXFileReference; lastKnownFileType = image.png; path = SiliconThread_Overview.png; sourceTree = "<group>"; };
+		AA000031 /* SiliconThreadApp.swift */ = { isa = PBXBuildFile; fileRef = AA000016 /* SiliconThreadApp.swift */; };
+		AA000032 /* Product.swift */ = { isa = PBXBuildFile; fileRef = AA000020 /* Product.swift */; };
+		AA000033 /* Address.swift */ = { isa = PBXBuildFile; fileRef = AA000021 /* Address.swift */; };
+		AA000034 /* ContentView.swift */ = { isa = PBXBuildFile; fileRef = AA000022 /* ContentView.swift */; };
+		AA000035 /* ProfileView.swift */ = { isa = PBXBuildFile; fileRef = AA000023 /* ProfileView.swift */; };
+		AA000036 /* AddressFormView.swift */ = { isa = PBXBuildFile; fileRef = AA000024 /* AddressFormView.swift */; };
+		AA000037 /* SettingsView.swift */ = { isa = PBXBuildFile; fileRef = AA000025 /* SettingsView.swift */; };
+		AA000038 /* products.json */ = { isa = PBXBuildFile; fileRef = AA000026 /* products.json */; };
+		AA000039 /* SiliconThread_User_Guide.pdf */ = { isa = PBXBuildFile; fileRef = AA000029 /* SiliconThread_User_Guide.pdf */; };
+		AA000040 /* SiliconThread_Overview.png */ = { isa = PBXBuildFile; fileRef = AA000030 /* SiliconThread_Overview.png */; };
+		AA000011 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = SiliconThread/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/Frameworks", ); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.siliconthread.marketplace; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		AA000012 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = SiliconThread/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/Frameworks", ); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.siliconthread.marketplace; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+		AA000013 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = SiliconThread/Info.plist; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/Frameworks", ); PRODUCT_BUNDLE_IDENTIFIER = com.siliconthread.marketplace; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		AA000014 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; INFOPLIST_FILE = SiliconThread/Info.plist; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/Frameworks", ); PRODUCT_BUNDLE_IDENTIFIER = com.siliconthread.marketplace; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+	};
+	rootObject = AA000001 /* SiliconThread */;
+}
